@@ -1,0 +1,55 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.25" d="M64 41.4142L41.4142 64H54C59.5228 64 64 59.5228 64 54V41.4142Z" class="fade delay6" fill="#FEC82C"/>
+<path opacity="0.25" d="M64 21.4142L54.9495 30.4646C54.983 30.9721 55 31.484 55 32C55 44.7025 44.7025 55 32 55C31.484 55 30.9721 54.983 30.4646 54.9495L21.4142 64H38.5858L64 38.5858V21.4142Z" class="fade delay5" fill="#FEC82C"/>
+<g opacity="0.25" class="fade delay4">
+<path d="M61.7429 3.67126L48.9553 16.4589C51.8416 19.6063 53.8631 23.5596 54.6432 27.9425L64 18.5858V10C64 7.59873 63.1536 5.39513 61.7429 3.67126Z" fill="#FEC82C"/>
+<path d="M18.5858 64L27.9425 54.6432C23.5596 53.8631 19.6063 51.8416 16.4589 48.9553L3.67126 61.7429C5.39513 63.1536 7.59873 64 10 64H18.5858Z" fill="#FEC82C"/>
+</g>
+<g opacity="0.25" class="fade delay3">
+<path d="M45.4142 0L36.0575 9.35675C40.4404 10.1369 44.3937 12.1584 47.5411 15.0447L60.3287 2.25705C58.6049 0.846365 56.4013 0 54 0H45.4142Z" fill="#FEC82C"/>
+<path d="M2.25705 60.3287L15.0447 47.5411C12.1584 44.3937 10.1369 40.4404 9.35675 36.0575L0 45.4142V54C0 56.4013 0.846365 58.6049 2.25705 60.3287Z" fill="#FEC82C"/>
+</g>
+<path opacity="0.25" d="M0 25.4142V42.5858L9.05043 33.5354C9.01699 33.0279 9 32.5159 9 32C9 19.2975 19.2975 9 32 9C32.5159 9 33.0279 9.01699 33.5354 9.05043L42.5858 0H25.4142L0 25.4142Z" class="fade delay2" fill="#FEC82C"/>
+<path opacity="0.25" d="M22.5858 0H10C4.47715 0 0 4.47715 0 10V22.5858L22.5858 0Z" class="fade delay1" fill="#FEC82C"/>
+<rect x="2" y="2" width="60" height="60" rx="8" stroke="#FEC82C" stroke-width="4"/>
+<circle cx="32" cy="32" r="21" stroke="#FEC82C" stroke-width="4"/>
+<path d="M33 11L42 2M47 17L59 5M53 31L62 22M62 42L42 62M22 62L31 53M5 59L17 47M2 42L11 33M2 22L22 2" stroke="#FEC82C" stroke-width="4"/>
+
+<style>
+
+  .fade {
+    animation: 2s fade cubic-bezier(0.33, 1, 0.68, 1) infinite;
+  }
+
+  .fade.delay1 {
+    animation-delay: 1.1s;
+  }
+  .fade.delay2 {
+    animation-delay: 1.2s;
+  }
+  .fade.delay3 {
+    animation-delay: 1.3s;
+  }
+  .fade.delay4 {
+    animation-delay: 1.4s;
+  }
+  .fade.delay5 {
+    animation-delay: 1.5s;
+  }
+  .fade.delay6 {
+    animation-delay: 1.6s;
+  }
+
+  @keyframes fade {
+    0% {
+      opacity: .75;
+    }
+    100% {
+      opacity: .25;
+    }
+  }
+  
+</style>
+
+
+</svg>
