@@ -1,0 +1,107 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.25" fill-rule="evenodd" clip-rule="evenodd" d="M10 0C4.47715 0 0 4.47715 0 10V54C0 59.5228 4.47715 64 10 64H54C59.5228 64 64 59.5228 64 54V10C64 4.47715 59.5228 0 54 0H10ZM32 55C44.7025 55 55 44.7025 55 32C55 19.2975 44.7025 9 32 9C19.2975 9 9 19.2975 9 32C9 44.7025 19.2975 55 32 55Z" fill="#01DD4A"/>
+<rect x="2.00003" y="2" width="60" height="60" rx="8" stroke="#01DD4A" stroke-width="4"/>
+<circle cx="32" cy="32" r="21" stroke="#01DD4A" stroke-width="4"/>
+<path d="M41 41L53 53" stroke="#01DD4A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="spin1" />
+<path d="M41 41L53 53" stroke="#01DD4A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="spin2" />
+<path d="M41 41L53 53" stroke="#01DD4A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="spin3" />
+<path d="M41 41L53 53" stroke="#01DD4A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="spin4" />
+
+<style>
+
+  .spin1,
+  .spin2,
+  .spin3,
+  .spin4 {
+    transform-origin: 50% 50%;
+  }
+  .spin1 {
+    animation: 6s spin1 cubic-bezier(0.76, 0, 0.24, 1) infinite;
+  }
+  .spin2 {
+    animation: 6s spin2 cubic-bezier(0.76, 0, 0.24, 1) infinite;
+  }
+  .spin3 {
+    animation: 6s spin3 cubic-bezier(0.76, 0, 0.24, 1) infinite;
+  }
+  .spin4 {
+    animation: 6s spin4 cubic-bezier(0.76, 0, 0.24, 1) infinite;
+  }
+
+  @keyframes spin1 {
+    25% {
+      transform: rotate(0deg);
+    }
+    75% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spin2 {
+    25% {
+      transform: rotate(0deg);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    75% {
+      transform: rotate(450deg);
+      opacity: 1;
+    }
+    90% {
+      transform: rotate(450deg);
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes spin3 {
+    25% {
+      transform: rotate(0deg);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    75% {
+      transform: rotate(180deg);
+      opacity: 1;
+    }
+    95% {
+      transform: rotate(180deg);
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes spin4 {
+    25% {
+      transform: rotate(0deg);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    75% {
+      transform: rotate(270deg);
+      opacity: 1;
+    }
+    100% {
+      transform: rotate(270deg);
+      opacity: 0;
+    }
+  }
+
+  
+
+</style>
+
+</svg>
